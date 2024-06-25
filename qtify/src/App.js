@@ -23,7 +23,6 @@
 // }
 import { useEffect, useState } from "react";
 import "./App.css";
-//@ts-ignore
 import NavBar from "./components/NavBar/NavBar";
 
 function App() {
