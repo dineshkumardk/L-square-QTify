@@ -1,11 +1,29 @@
-.cardContainer{
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  grid-gap: 10px;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+:root {
+  --primary-color: #34c94b;
+  --white-color: #ffffff;
+  --black-color: #121212;
 }
-.sectionWrapper{
-  padding: 0px 30px 60px;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Poppins, sans-serif !important;
+}
+
+body {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  overflow-x: hidden;
+}
+
+hr {
+  border: 1px solid var(--primary-color);
+}
+
+.swiper-slide {
+  width: auto !important;
 }
