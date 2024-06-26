@@ -35,4 +35,4 @@ const AlbumSongsPage = () => {
   );
 };
 
-export default AlbumSongsPage;
+export default Album;
