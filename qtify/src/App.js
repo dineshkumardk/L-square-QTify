@@ -1,5 +1,5 @@
 import "./App.css";
-import AlbumSongsPage from "./Components/Album/AlbumSongsPage";
+import AlbumSongsPage from "./Components/Album/Album";
 import HomePage from './Components/Home Page/HomePage';
 import { Route, Routes } from "react-router-dom";
 
