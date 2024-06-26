@@ -5,6 +5,7 @@ import { fetchTopAlbum, fetchNewAlbum } from "../../api/api";
 import Navbar from "../Navbar/Navbar";
 import SongsHero from "../Songs Page Hero/SongsHero";
 import SongsTable from "../Table/Table";
+
 const AlbumSongsPage = () => {
   let location = useLocation();
   let clickedAlbum = location.state.album;
