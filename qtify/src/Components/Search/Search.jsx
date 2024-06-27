@@ -8,7 +8,6 @@ const Search = ({ data, page }) => {
   const handleInput = (e) => {
     setValue(e.target.value);
   };
-
   const handleSubmit = (e) => {
     console.log("click");
   };
